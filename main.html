@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="script.js"></script>
+    <script type="module" src="classes.js"></script>
+    <link rel="stylesheet" href="main.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academio</title>
+  </head>
+  <body>
+    <div class="modal-window__edit hidden">
+      <button class="close-modal">&times;</button>
+      <h1 class="edit-header">Edit student info</h1>
+          <input id="first-name__data" class="edit-form__input" type="text" placeholder="First name" >
+          <input id="last-name__data" class="edit-form__input" type="text" placeholder="Last name" >
+          <input id="email__data" class="edit-form__input" type="text" placeholder="E-mail" >
+          <input id="username__data" class="edit-form__input" type="text" placeholder="Username" >
+          <input id="address__data" class="edit-form__input" type="text" placeholder="Address" >
+        <button class="save-edit">Save</button>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <div class="nav-box__container">
+      <div><img id="graduation-cap" src="img/graduation-cap.png" alt=""></div>
+      <h1 class="logo-box__academio">Welcome back to Academio
+      </h1>
+      <nav class="nav-box">
+        <ul class="nav-box__links">
+          <li class="nav-box__links">
+            <a class="nav-links" id="students-button" href="#">Students</a>
+          </li>
+          <li class="nav-box__links">
+            <a class="nav-links" id="teachers-button" href="#">Teachers</a>
+          </li>
+          <li class="nav-box__links">
+            <a class="nav-links" id="classes-button" href="#">Classes</a>
+          </li>
+          <li class="nav-box__links">
+            <a class="nav-links" id="exams-button" href="#">Exams</a>
+          </li>
+          <li class="nav-box__links">
+            <a class="nav-links" id="info-button" href="#">Info</a>
+          </li>
+        </ul>
+      </nav>
+
+      <table class="content-table hidden" id="table1">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="firstname-header">First name</th>
+            <th class="lastname-header">Last name</th>
+            <th>E-mail</th>
+            <th class="grade-header">Grade</th>
+            <th>Edit Info</th>
+          </tr>
+        </thead>
+        <tbody class="students" id="students-table">
+          
+        </tbody>
+      </table>
+
+      <table class="second-table hidden" id="table2">
+        <thead>
+          <tr>
+            <th></th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Student Grade</th>
+            <th>E-mail</th>
+          </tr>
+        </thead>
+        <tbody class="teachers" id="teachers-table">
+          
+        </tbody>
+      </table>
+
+      <table class="third-table hidden" id="table3">
+        <thead>
+          <tr>
+            <th></th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody class="students-grades" id="grades-table">
+          
+        </tbody>
+      </table>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academio</title>
+  </head>
+  <body>
+
+    <!-- LOGIN FORM -->
+    <form 
+class="login-form" action="main.html" method="GET">
+      <div class="login-form__logo-container">
+        <img
+          class="login-form__logo"
+          src="img/graduation-cap.png"
+          alt="grad cap photo"
+        />
+        <span class="website-name__container">Academio</span>
+      </div>
+      <div class="login-form__content">
+        <div class="login-form__header">Login to your account</div>
+        <input
+          class="login-form__input"
+          id="login-username"
+          type="text"
+          name="academio_username"
+          placeholder="Username"
+        />
+
+        <input
+          class="login-form__input"
+          id="login-password"
+          type="password"
+          name="academio_password"
+          placeholder="Password"
+        />
+
+        <button class="login-form__button" type="submit">Login</button>
+
+        <div class="login-form__links">
+          <a href="#" class="login-form__register"
+            >Don't have an account?<br />Register</a
+          >
+        </div>
+      </div>
+    </form>
+
+    <!-- REGISTRATION FORM -->
+    <form class="registration-form-hidden" action="./" method="GET">
+      <div class="registration-form__logo-container">
+        <img
+          class="registration-form__logo"
+          src="img/graduation-cap.png"
+          alt="grad cap photo"
+        />
+        <span class="website-name__container">Academio</span>
+      </div>
+      <div class="registration-form__content">
+        <div class="registration-form__header">Register your account</div>
+        <input
+          class="registration-form__input"
+          id="registration-firstName"
+          type="text"
+          name="academio_firstName"
+          placeholder="First name"
+        />
+
+        <input
+          class="registration-form__input"
+          id="registration-lastName"
+          type="text"
+          name="academio_lastName"
+          placeholder="Last name"
+        />
+
+        <input
+          class="registration-form__input"
+          id="registration-username"
+          type="text"
+          name="academio_username"
+          placeholder="Username"
+        />
+
+        <input
+          class="registration-form__input"
+          id="registration-password"
+          type="password"
+          name="academio_password"
+          placeholder="Password"
+        />
+
+        <input
+          class="registration-form__input"
+          id="registration-confirm-password"
+          type="password"
+          name="academio_password"
+          placeholder="Confirm Password"
+        />
+
+        <input
+          class="registration-form__input"
+          id="registration-email"
+          type="email"
+          name="academio_email"
+          placeholder="E-mail"
+        />
+
+        <input
+          class="registration-form__input"
+          id="registration-address"
+          type="text"
+          name="academio_address"
+          placeholder="Address"
+        />
+
+        <button class="registration-form__button" type="submit">
+          Register
+        </button>
+        <div class="registration-form__links">
+            <a href="#" class="login-form__alreadyHave"
+              >Already have an account?<br />Login</a
+            >
+          </div>
+        </div>
+      </form>
+      </form>
+      </div>
+    </form>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="classes.js"></script>
+  </body>
+</html>

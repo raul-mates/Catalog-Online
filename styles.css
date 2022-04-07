@@ -1,0 +1,207 @@
+html {
+  font-size: 62.5%;
+  background-image: linear-gradient(to bottom right, #009578, #00b10091);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  margin-top: 0;
+}
+
+/* LOGIN STYLE */
+.login-form,
+.login-form * {
+  font-family: "Lato";
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+.login-form {
+  max-width: 35rem;
+  margin: 0 auto;
+  margin-top: 15rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.login-form__logo-container {
+  padding: 3rem;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.login-form__logo {
+  display: block;
+  max-width: 15rem;
+  margin: 0 auto;
+}
+
+.website-name__container {
+  color: white;
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.login-form__content {
+  padding: 3rem;
+  background: #eeee;
+}
+
+.login-form__header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.login-form__input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #dddddd;
+  background: #fff;
+  outline: none;
+  transition: border-color 0.5s;
+}
+
+.login-form__input:focus {
+  border-color: #009578;
+}
+
+.login-form__input::placeholder {
+  color: #aaaaaa;
+}
+
+.login-form__button {
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+  background: #009578;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-form__button:active {
+  background: #008067;
+}
+
+.login-form__links {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.login-form__register {
+  font-size: 0.9em;
+  color: #009578;
+  text-decoration: none;
+}
+
+.login-form-hidden {
+  display: none;
+}
+
+/* REGISTRATION STYLE */
+
+.registration-form,
+.registration-form * {
+  font-family: "Lato";
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+.registration-form {
+  max-width: 35rem;
+  margin: 0 auto;
+  margin-top: 6.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.registration-form__logo-container {
+  padding: 3rem;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.registration-form__logo {
+  display: block;
+  max-width: 15rem;
+  margin: 0 auto;
+}
+
+.website-name__container {
+  color: white;
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.registration-form__content {
+  padding: 3rem;
+  background: #eeee;
+}
+
+.registration-form__header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.registration-form__input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #dddddd;
+  background: #fff;
+  outline: none;
+  transition: border-color 0.5s;
+}
+
+.registration-form__input:focus {
+  border-color: #009578;
+}
+
+.registration-form__input::placeholder {
+  color: #aaaaaa;
+}
+
+.registration-form__button {
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+  background: #009578;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.registration-form__button:active {
+  background: #008067;
+}
+
+.registration-form__links {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.registration-form__link {
+  font-size: 0.9em;
+  color: #009578;
+  text-decoration: none;
+}
+
+.registration-form-hidden {
+  display: none;
+}
+
+.login-form__alreadyHave {
+  font-size: 0.9em;
+  color: #009578;
+  text-decoration: none;
+}
